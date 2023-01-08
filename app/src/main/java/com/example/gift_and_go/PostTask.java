@@ -32,7 +32,7 @@ public class PostTask extends AsyncTask<Void, Void, String> {
 
             // Ajout de l'en-tête
             conn.setRequestProperty("Content-Type", "application/json");
-            conn.setRequestProperty("Authorization", "Bearer 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");
+            conn.setRequestProperty("Authorization", "Bearer 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");
 
             // Ajout du corps de la demande
             String body = "{ \"prompt\": \"animal with gift character white backgound\",\"n\": 1,\"size\": \"256x256\"}";
