@@ -51,10 +51,12 @@ Lancer une partie :
             2- Cliquer sur la chasse sur lequel vous voulez jouer,
             3- Déplacer vous à l'endroit signaler sur la carte pour trouver votre cadeaux,
             4- Une fois attraper le point devient vert.
+Voire les cadeaux attrapé : 
+            1- Clique sur Bibliothéque, et vous y trouverais tout les animaux mignion que vous avait capturé.
+Comment jouer : 
+            1- Cliquer sur Comment jouer, vous y trouverais les instructions ci-dessus. 
             
             
-            
-
 ## DEMO VIDEO DE GIFT AND GO : 
 https://user-images.githubusercontent.com/58032469/211219264-94f2e797-92a3-4cfa-9d41-ddfd272e82d9.mp4
 
@@ -62,7 +64,20 @@ https://user-images.githubusercontent.com/58032469/211219264-94f2e797-92a3-4cfa-
 ## DESCRIPTION DES CLASSES DE L'APPLICATION :
 
 - "Welcome" est la classe qui va nous accueilir sur l'application, grace à cette classe nous avons une simulation d'animation d'ouverture d'application, nous pouvons y trouver le logo de l'application ainsi que mon nom. La classe utilise activity_opening.xml.
-- "MainActivity" est la classe qui va représenter la page principale, nous y demandons les différentes autorisations. La classe utilise activity_main.xml. Nous retrouvons sur cette  
+
+- "MainActivity" est la classe qui va représenter la page principale, nous y demandons les différentes autorisations. La classe utilise activity_main.xml. Nous pouvons lancer une partie, en crée une ou en modifié une ainsi que la bibliothéque.
+
+- "Chasse" et "Localisation" décrivent les objects qui représente une chasse et une localisation.
+
+- Lorsque nous créons ou modifions une chasse au trésor nous arrivons sur une liste de chasses "ListChasse". La classe utilise activity_liste.xml.
+
+- Concernant la bibliotheque nous utlisons les classes "AlbumActivity" ainsi que "AdaptateurAlbum" pour récupérer et afficher les images des chasses. La classe utilise activity_album.xml.
+
+- Pour gérer les différentes chasses nous utilisons une base de donnée "BDDDao" et "MaBaseSQLLite" nous permettent de géré cela.
+
+- Lorsque nous lançons une chasse au trésors nous arrivons sur la map google map "MapActivity". La classe utilise activity_map.xml.
+
+- Une fois sur un point de localisation la caméra est ouverte "CameraActivity" et le sprite est affiché quand trouvé. La classe utilise activity_camera.xml.
 
 
 
