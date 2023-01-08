@@ -6,7 +6,7 @@ Projet Programation mobile
 
 Bienvenue dans l'application Gift And Go !!!
 
-# RESUME : 
+## RESUME : 
 
 Avec cette application, vous pouvez créer et lancer des chasses aux trésors sur une carte. Vous pouvez positionner des points sur la carte et lorsque vous arrivez sur l'un d'entre eux, la caméra de votre téléphone se lance et affiche un animal avec un cadeau à la main. Une fois que vous avez capturé l'animal, le marqueur passe du rouge au vert.
 
@@ -16,7 +16,11 @@ Cette application a été réalisée en Java avec Android Studio. Les images son
 
 J'espère que vous apprécierez cette application de chasses aux trésors ! N'hésitez pas à nous faire part de vos commentaires et suggestions.
 
-# UTILISATION :
+## PRÉREQUIS  : 
+  - Android Studio
+  - Clé API OPEN IA pour DALL-E
+ 
+## UTILISATION :
 Cette application peut avoir plusieurs but d'utilisation, par exemple pour faire une activité extérieure avec des enfants : 
 Le but est de trouver des « cadeaux » dans des lieux précis.  
 On se met dans le parc de l’université et la personne va devoir « attraper des indices » à chaque « indice » qu'il va revenir sur la personne qui organisait la chasse au trésor pour lui montrer son album avec les preuves qu'il s'est bien rendu à l'endroit indiqué. Et elle va lui donner soit un indice qu’il va devoir résoudre soit un petit cadeau (de type un bonbon). Puis il retourne pour chercher d’autres indices afin d'avoir d’autre petit cadeaux. 
