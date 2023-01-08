@@ -19,6 +19,7 @@ J'espère que vous apprécierez cette application de chasses aux trésors ! N'h�
 ## PRÉREQUIS  : 
   - Android Studio
   - Clé API OPEN IA pour DALL-E
+  - J'ai développer l'application sur mon téléphone un Huawei P30
  
 ## UTILISATION :
 Cette application peut avoir plusieurs but d'utilisation, par exemple pour faire une activité extérieure avec des enfants : 
@@ -31,5 +32,41 @@ Cette application peut être utiliser pour Halloween quand l’on n’a pas de v
 
 C’est sympa de faire une petite chasse au trésor afin d'offrir un cadeau au lieu de simplement le donner.
 Cela permet aussi de faire une petite balade en même temps avec la famille pendant que l’enfant cherche les animaux pour avoir son cadeau et un objectif de balade. 
+
+## COMMENT JOUER :
+
+Crée une chasse au trésor :
+            1- Cliquer sur Crée une chasse au trésor;
+            2- Puis cliquait sur Ajouter;
+            3- Renseigner un nom de chasse;
+            4- Cliquer sur la carte pour ajouter des points (cela peut prendre un certain temps)
+            5- Une fois tous les points ajoutés vous pouvez retourner sur la page d'accueil.
+Modifier une chasse au trésor :
+            1- Cliquer sur Crée une chasse au trésor;
+            2- Cliquer sur le nom de la chasse à modifier;
+            3- Pour ajouter un point cliquer sur la carte à l'endroit désiré;
+            4- Pour supprimer un point cliquer sur le point a supprimé.
+Lancer une partie :
+            1- Il faut préalablement avoir créé une chasse au trésors,
+            2- Cliquer sur la chasse sur lequel vous voulez jouer,
+            3- Déplacer vous à l'endroit signaler sur la carte pour trouver votre cadeaux,
+            4- Une fois attraper le point devient vert.
+            
+            
+            
+
+## DEMO VIDEO DE GIFT AND GO : 
+https://user-images.githubusercontent.com/58032469/211219264-94f2e797-92a3-4cfa-9d41-ddfd272e82d9.mp4
+
+
+## DESCRIPTION DES CLASSES DE L'APPLICATION :
+
+- "Welcome" est la classe qui va nous accueilir sur l'application, grace à cette classe nous avons une simulation d'animation d'ouverture d'application, nous pouvons y trouver le logo de l'application ainsi que mon nom. La classe utilise activity_opening.xml.
+- "MainActivity" est la classe qui va représenter la page principale, nous y demandons les différentes autorisations. La classe utilise activity_main.xml. Nous retrouvons sur cette  
+
+
+
+
+
 
 
