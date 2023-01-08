@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/vertbleu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment jouer ? "
+            android:textSize="100px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+           Crée une chasse au trésor :\n
+            1- Cliquer sur Crée une chasse au trésor;\n
+            2- Puis cliquait sur Ajouter;\n
+            3- Renseigner un nom de chasse;\n
+            4- Cliquer sur la carte pour ajouter des points (cela peut prendre un certain temps)\n
+            5- Une fois tous les points ajoutés vous pouvez retourner sur la page d'accueil.\n
+\n
+            Modifier une chasse au trésor :\n
+            1- Cliquer sur Crée une chasse au trésor;\n
+            2- Cliquer sur le nom de la chasse à modifier;\n
+            3- Pour ajouter un point cliquer sur la carte à l'endroit désiré;\n
+            4- Pour supprimer un point cliquer sur le point a supprimé.\n
+\n
+            Lancer une partie :\n
+            1- Il faut préalablement avoir créé une chasse au trésors,\n
+            2- Cliquer sur la chasse sur lequel vous voulez jouer,\n
+            3- Déplacer vous à l'endroit signaler sur la carte pour trouver votre cadeaux,\n
+            4- Une fois attraper le point devient vert.\n
+            "
+            android:textSize="40px"
+            />
+
+        <Button
+            android:id="@+id/idBtnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:backgroundTint="@color/teal_700"
+            android:text="Ok"
+            android:textSize="100px"></Button>
+    </LinearLayout>
+
+</LinearLayout>

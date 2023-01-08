@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/opening_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANTIGNY Amélie"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M2 MIAGE 2022-2023"
+        android:textSize="70px"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+</LinearLayout>

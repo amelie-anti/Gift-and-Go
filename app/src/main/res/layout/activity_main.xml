@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/background">
+
+<!-- <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>-->
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <ImageView
+            android:id="@+id/idLogo"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/idCommentJouer"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:background="#00FFFFFF"
+            android:onClick="alertDialogCommentJouer"
+            android:scaleType="fitXY"
+            android:src="@drawable/comment_jouer_btn"></ImageButton>
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bare">
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="700px"
+        android:layout_height="300px"
+        android:text="Lancer une chasse au trésor"
+        android:textSize="60px"
+        android:backgroundTint="@color/vertbleu"/>
+    <Button
+        android:id="@+id/buttonCreateGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer/Modifier une chasse au trésor"
+        android:textSize="60px"
+        android:backgroundTint="@color/vertbleu"
+        android:layout_marginTop="50px"/>
+    <Button
+        android:id="@+id/buttonBibliotheque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bibliotheque"
+        android:textSize="60px"
+        android:backgroundTint="@color/vertbleu"
+        android:layout_marginTop="50px"/>
+
+</LinearLayout>
+</LinearLayout>
+
