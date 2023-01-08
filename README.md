@@ -1,6 +1,6 @@
-# Chasses aux trésors
+# GIFT AND GO
 
-Bienvenue dans l'application Chasses aux trésors !
+Bienvenue dans l'application Gift And Go !
 
 Avec cette application, vous pouvez créer et lancer des chasses aux trésors sur une carte. Vous pouvez positionner des points sur la carte et lorsque vous arrivez sur l'un d'entre eux, la caméra de votre téléphone se lance et affiche un animal avec un cadeau à la main. Une fois que vous avez capturé l'animal, le marqueur passe du rouge au vert.
 
